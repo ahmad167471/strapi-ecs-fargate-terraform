@@ -1,3 +1,6 @@
+# Docker image tag for ECS deployment
 variable "image_tag" {
-  default = "latest"
+  description = "Tag of the Docker image to deploy"
+  type        = string
+  default     = "latest"
 }
